@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/ic_info"/>
+
+    <item
+        android:id="@+id/vaccin"
+        android:title="Vaccine Availability"
+        android:icon="@drawable/ic_vaccin"/>
+
+    <item
+        android:id="@+id/cases"
+        android:title="Cases"
+        android:icon="@drawable/ic_cases"/>
+
+    <item
+        android:id="@+id/developer"
+        android:title="Developer Info"
+        android:icon="@drawable/ic_info"/>
+
+    <item
+        android:id="@+id/aboutApp"
+        android:title="About App" />
+
+
+</menu>

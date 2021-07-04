@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Covid-19 Vaccine&amp;Casses Tracker</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="this_app_informs_us_about_ncurrent_covid_19_cases_in_india_nand_also_at_the_same_time_it_will_show_the_vaccination_navailability_data_nall_the_data_represented_in_this_app_are_taken_from_sources_of_the_government_of_india">This app informs us about \ncurrent covid-19 cases in India. \nAnd also at the same time, it will show the vaccination \navailability data. \nAll the data represented in this app are taken from sources of the government of india.</string>
+    <string name="slot_availability">Slot availability</string>
+    <string name="show_cases">SHOW CASES</string>
+</resources>

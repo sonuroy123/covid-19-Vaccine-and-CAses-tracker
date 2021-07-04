@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Developer_info"
+    android:background="#46AB97">
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A team of 4 computer science and
+        \nengineering department members
+        \nfrom JNN college of engineering,
+        \nShimoga develops this app."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/sonu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 . Sonu Kumar \n      roysonu381@gmail.com
+        \n      Domain :- Backend"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/info"
+        />
+
+    <TextView
+        android:id="@+id/spoorthi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.  Spoorthi B O \n     spoorthibanagar18@gmail.com
+        \n     Domain :- FrontEnd"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_below="@id/sonu"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/suryansh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.  Suryansh Sinha \n      suryanshsinha30@gmail.com
+        \n      Domain :- Backend"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_below="@id/spoorthi"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/suma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.  Suma S N \n     sumanelogalb234@gmail.com
+        \n     Domain :- FrontEnd"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_below="@id/suryansh"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        />
+
+
+
+</RelativeLayout>

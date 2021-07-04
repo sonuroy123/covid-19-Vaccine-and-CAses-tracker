@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtStateName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STATE NAME"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/txtActive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Active"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:id="@+id/txtActive1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Active"
+            android:textColor="#2E86C1"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="100dp"
+            android:layout_toRightOf="@id/txtActive"
+
+            />
+
+        <TextView
+            android:id="@+id/txtRecovered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recovered"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/txtActive"
+            />
+
+        <TextView
+            android:id="@+id/txtRecovered1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recovered"
+            android:textColor="#1E8449"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="70dp"
+            android:layout_toRightOf="@id/txtRecovered"
+            android:layout_below="@id/txtActive1"
+            />
+
+        <TextView
+            android:id="@+id/txtDeaths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deaths"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/txtRecovered"
+            />
+
+        <TextView
+            android:id="@+id/txtDeaths1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deaths"
+            android:textColor="#E74C3C"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="95dp"
+            android:layout_toRightOf="@id/txtDeaths"
+            android:layout_below="@id/txtRecovered1"
+            />
+
+        <TextView
+            android:id="@+id/txtCases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cases"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/txtDeaths"
+            />
+
+        <TextView
+            android:id="@+id/txtCases1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cases"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="100dp"
+            android:layout_toRightOf="@id/txtCases"
+            android:layout_below="@id/txtDeaths1"
+            />
+
+        <TextView
+            android:id="@+id/txtTodayActive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today Active"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/txtCases"
+            />
+
+        <TextView
+            android:id="@+id/txtTodayActive1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today Active"
+            android:textColor="#2E86C1"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="55dp"
+            android:layout_toRightOf="@id/txtTodayActive"
+            android:layout_below="@id/txtCases1"
+            />
+
+        <TextView
+            android:id="@+id/txtTodayRecovered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today Recovered"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/txtTodayActive"
+            />
+
+        <TextView
+            android:id="@+id/txtTodayRecovered1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today Recovered"
+            android:textColor="#1E8449"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@id/txtTodayRecovered"
+            android:layout_below="@id/txtTodayActive1"
+            />
+
+        <TextView
+            android:id="@+id/txtTodayDeaths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today Deaths"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/txtTodayRecovered"
+            />
+
+        <TextView
+            android:id="@+id/txtTodayDeaths1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today Deaths"
+            android:textColor="#E74C3C"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@id/txtTodayDeaths"
+            android:layout_below="@id/txtTodayRecovered1"
+            />
+
+        <TextView
+            android:id="@+id/txtTodayCases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today Cases"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/txtTodayDeaths"
+            />
+
+        <TextView
+            android:id="@+id/txtTodayCases1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today Cases"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="55dp"
+            android:layout_toRightOf="@id/txtTodayCases"
+            android:layout_below="@id/txtTodayDeaths1"
+            />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

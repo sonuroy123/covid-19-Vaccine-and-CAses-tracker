@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#46AB97">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/this_app_informs_us_about_ncurrent_covid_19_cases_in_india_nand_also_at_the_same_time_it_will_show_the_vaccination_navailability_data_nall_the_data_represented_in_this_app_are_taken_from_sources_of_the_government_of_india"
+        android:textSize="30sp"
+        android:layout_marginTop="80dp"/>
+
+</RelativeLayout>

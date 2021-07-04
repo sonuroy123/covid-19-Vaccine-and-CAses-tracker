@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/parentLayout"
+    android:layout_marginBottom="10dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_height="280dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtCenterName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:drawablePadding="4dp"
+            android:padding="3dp"
+            android:text="Center Name"
+            android:textColor="@color/black"
+            app:drawableLeftCompat="@drawable/ic_hospital" />
+
+        <TextView
+            android:id="@+id/txtCenterAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtCenterName"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:drawablePadding="4dp"
+            android:padding="3dp"
+            android:text="Center Address"
+            android:textColor="@color/black"
+            app:drawableLeftCompat="@drawable/ic_location" />
+
+        <TextView
+            android:id="@+id/txtCenterTimings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtCenterAddress"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:drawableStart="@drawable/ic_ltime"
+            android:drawablePadding="4dp"
+            android:padding="3dp"
+            android:text="Timings"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/idLL1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtCenterTimings"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:weightSum="2">
+
+            <!--text view for displaying vaccine name-->
+            <TextView
+                android:id="@+id/txtVaccineName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:drawablePadding="4dp"
+                android:padding="3dp"
+                android:text="Vaccine Name"
+                android:textColor="@color/black"
+                app:drawableLeftCompat="@drawable/ic_medicine" />
+
+            <!--text view for displaying center fees type-->
+            <TextView
+                android:id="@+id/txtFeeType"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Fee Type"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/idLL2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idLL1"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:weightSum="2">
+
+            <!--text view for displaying age limit-->
+            <TextView
+                android:id="@+id/txtAgeLimit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Age Limit "
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <!--text view for displaying center availability-->
+            <TextView
+                android:id="@+id/txtAvaliablity"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Avaliablity"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnAppointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Appointment"
+            android:textStyle="bold"
+            android:background="@drawable/round_button"
+            android:layout_below="@id/idLL2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:onClick="appointment"
+            tools:ignore="UsingOnClickInXml" />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
